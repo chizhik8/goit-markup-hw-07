@@ -1,0 +1,39 @@
+.logo-black {
+  color: $primary-text-color;
+  font-family: $logo-text-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-white {
+  color: $add-text-color;
+  font-family: $logo-text-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: $acent-logo-color;
+  font-family: $logo-text-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  /* outline: 2px solid orchid; */
+  margin: 24px 0px 25px;
+}
+
+.logo-f {
+  color: $acent-logo-color;
+  font-family: $logo-text-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  /* outline: 2px solid orchid; */
+  margin: 0px;
+  padding: 0px;
+}

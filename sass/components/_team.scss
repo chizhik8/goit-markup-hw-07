@@ -1,0 +1,125 @@
+/*=====================Наша команда================= */
+.team {
+  background-color: $section-team-bg-color;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* outline: 4px solid greenyellow; */
+}
+
+.team-list {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  /* outline: 2px solid orchid; */
+}
+
+.team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.team-list .item {
+  background-color: $primary-bg-color;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  /* outline: 2px solid orchid; */
+}
+
+.team-list .item .title {
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 0px;
+  margin: 30px 0px 10px;
+}
+
+.team-list .item .text {
+  color: $second-text-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 0px;
+  margin: 0px 0px 16px;
+}
+
+.team-list .item .social-icon {
+  /* outline: 2px solid orchid; */
+  padding: 0px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+}
+
+.team-list .item .social-icon .link {
+  width: 44px;
+  height: 44px;
+  margin: 0px auto;
+  fill: $second-text-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* outline: 2px solid greenyellow; */
+}
+
+.team-list .item .social-icon .link {
+  /* transition-property: color; */
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-timing-function: linear; */
+}
+
+.team-list .item .social-icon .link:hover,
+.team-list .item .social-icon .link:focus {
+  background-color: $acent-logo-color;
+}
+
+.team-list .item .social-icon a {
+  /* transition-property: color; */
+  /* transition-property: background-color; */
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-timing-function: linear; */
+}
+
+.team-list .item .social-icon a:hover .icon-instagram-2,
+.team-list .item .social-icon a:focus .icon-instagram-2 {
+  fill: $primary-bg-color;
+}
+
+.team-list .item .social-icon a:hover .icon-facebook-1,
+.team-list .item .social-icon a:focus .icon-facebook-1 {
+  fill: $primary-bg-color;
+}
+
+.team-list .item .social-icon a:hover .icon-twitter-1,
+.team-list .item .social-icon a:focus .icon-twitter-1 {
+  fill: $primary-bg-color;
+}
+
+.team-list .item .social-icon a:hover .icon-linkedin-1,
+.team-list .item .social-icon a:focus .icon-linkedin-1 {
+  fill: $primary-bg-color;
+}

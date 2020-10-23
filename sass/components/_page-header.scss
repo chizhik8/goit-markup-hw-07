@@ -1,0 +1,149 @@
+/* Верхняя линия: logo, menu nav (Студия,Портфолио,Контакты), e-mail, tel */
+
+.site-nav {
+  display: flex;
+  /* outline: 2px solid orchid; */
+}
+
+.site-nav-list a {
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav-list {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  /* outline: 2px solid orchid; */
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 331px 0px 93px;
+  width: 294px;
+}
+
+.site-nav-list .item {
+  position: relative;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  /* outline: 2px solid greenyellow; */
+}
+
+/* анаимирование - CSS переходы */
+
+.site-nav-list a {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-timing-function: linear; */
+}
+
+.site-nav-list a:hover,
+.site-nav-list a:focus,
+.site-nav-list a:active {
+  color: $acent-logo-color;
+}
+
+.site-nav-list .item .current {
+  color: $acent-logo-color;
+}
+
+.site-nav-list .item .current::after {
+  /* outline: 2px solid orchid; */
+  display: flex;
+  justify-content: space-between;
+  content: "";
+  padding: 0px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 50px;
+  height: 4px;
+  background-color: $acent-logo-color;
+  border-radius: 2px;
+}
+
+.site-nav-list .item .current-p {
+  color: $acent-logo-color;
+}
+
+.site-nav-list .item .current-p::after {
+  /* outline: 2px solid orchid; */
+  display: flex;
+  justify-content: space-between;
+  content: "";
+  padding: 0px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 77px;
+  height: 4px;
+  background-color: $acent-logo-color;
+  border-radius: 2px;
+}
+
+.site-cont a {
+  color: $second-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+}
+
+.site-cont a {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-timing-function: linear; */
+}
+
+.site-cont a:hover,
+.site-cont a:focus,
+.site-cont a:active {
+  color: $acent-logo-color;
+}
+
+.site-cont {
+  list-style: none;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px auto;
+  /* outline: 2px solid orchid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 332px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.icon-mail {
+  padding: 0px;
+  margin: auto;
+  margin-right: 10px;
+  fill: $second-text-color;
+  border-radius: 1px;
+}
+
+.site-cont a:hover .icon-mail,
+.site-cont a:focus .icon-mail {
+  fill: $acent-logo-color;
+}
+
+.icon-tel {
+  padding: 0px;
+  margin: auto;
+  margin-right: 8px;
+  fill: $second-text-color;
+  border-radius: 2px;
+}
+
+.site-cont a:hover .icon-tel,
+.site-cont a:focus .icon-tel {
+  fill: $acent-logo-color;
+}
