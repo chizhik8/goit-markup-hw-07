@@ -1,29 +1,27 @@
-body {
-  background-color: $primary-bg-color;
-  color: $primary-text-color;
-  font-family: $primary-text-font;
-}
-
 html {
   box-sizing: border-box;
+  body {
+    background-color: $primary-bg-color;
+    color: $primary-text-color;
+    font-family: $primary-text-font;
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+      padding: 0px 15px;
+      /* outline: 2px solid orchid; */
+    }
+    .main-page {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* outline: 2px solid greenyellow; */
+    }
+  }
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding: 0px 15px;
-  /* outline: 2px solid orchid; */
-}
-.main-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* outline: 2px solid greenyellow; */
 }
