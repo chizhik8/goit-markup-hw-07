@@ -3,11 +3,11 @@
   background-color: $hero-footer-bg-color;
   color: $add-text-color;
   text-align: center;
-  // max-width: 1600px;
-  // height: 600px;
+  max-width: 1600px;
+  height: 600px;
   outline: 1px solid black;
   padding-top: 200px;
-  // padding-bottom: 200px;
+  padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
@@ -19,39 +19,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  @media (min-width: $mobile) {
-    width: $mobile;
-    height: 400px;
-    padding-top: 118px;
-  }
-  @media (min-width: $tablet) {
-    width: $tablet;
-    height: 400px;
-  }
-  @media (min-width: $desktop) {
-    width: 1600px;
-    height: 600px;
-    padding-top: 200px;
-  }
 
   .hero-title {
     font-weight: 900;
-    // font-size: 44px;
-    // line-height: 1.36;
+    font-size: 44px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     /* outline: 2px solid orchid; */
-    margin-top: auto;
+    margin-top: 0px;
     margin-bottom: 30px;
-    text-align: center;
-    @media (min-width: $mobile) {
-      font-size: 26px;
-      line-height: 1.62;
-    }
-    @media (min-width: $desktop) {
-      font-size: 44px;
-      line-height: 1.36;
-    }
   }
 
   .button-hero {
